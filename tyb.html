@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+function fun()
+{
+    var num1=parseInt(document.frm.T1.value);
+    var num2=parseInt(document.frm.T2.value);
+    sum=num1+num2;
+    alert(sum);
+
+}
+</script>
+
+<body>
+    <script type="text/javascript">
+        prompt("Good morning");
+
+    </script>
+    <form name="frm">
+        Enter first number
+        <input type="text" name="T1">
+        <br>
+        Enter second number
+        <input type="text" name="T2">
+        <input type="button" value="click" onclick="fun()">
+        <br>
+
+    </form>
+    
+</body>
+</html>
